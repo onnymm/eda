@@ -1,15 +1,5 @@
-import empiricaldist
-import janitor
 import matplotlib.pyplot as plt
-import numpy as np
-import palmerpenguins
-import pandas as pd
-import scipy.stats
 import seaborn as sns
-import sklearn.metrics
-import statsmodels.api as sm
-import statsmodels.formula.api as smf
-import statsmodels.stats as ss
 
 sns.set_style(style='whitegrid')
 sns.set_context(context='notebook')
