@@ -1,5 +1,7 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
+import palmerpenguins
+pg = palmerpenguins.load_penguins().dropna()
 
 sns.set_style(style='whitegrid')
 sns.set_context(context='notebook')
@@ -14,5 +16,9 @@ penguin_color = {
     DATOS A IMPORTAR
 import kit
 from kit import penguin_color
+import matplotlib.pyplot as plt
+import seaborn as sns
+import palmerpenguins
+pg = palmerpenguins.load_penguins().dropna()
 
 """
