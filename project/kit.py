@@ -18,6 +18,9 @@ import kit
 from kit import penguin_color
 import matplotlib.pyplot as plt
 import seaborn as sns
+sns.set_style(style='whitegrid')
+sns.set_context(context='notebook')
+plt.rcParams['figure.figsize'] = (11, 9.4)
 import palmerpenguins
 pg = palmerpenguins.load_penguins().dropna()
 
